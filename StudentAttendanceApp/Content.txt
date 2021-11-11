@@ -1,0 +1,105 @@
+->Student Attendance App
+
+What we have
+1. Admin Login page -> Done
+2. Student Login Page -> Done
+3. Admin Dashboard -> Done
+4. Admin Profile Page -> 
+5. Admin-> Create new user -> Logic Working UI Design need some considration.
+6. Admin -> Schedule Class -> Not working properly
+7. Admin -> Attendance -> Check Attendance Working fine.
+8. Admin -> Attendance -> Mark Attendance -> Logic working need to work on UI design.
+9. Admin -> Attendance -> Update Attendance -> Working but need considration.
+10. Admin -> Attendance -> Calculate Average Attendance -> Not working.
+11. Admin -> Manage Student -> Application working but there are some changes required.
+12. Admin -> Search Student -> Reconsider UI and Requirement of this application.	
+13. Admin -> Process request ->Done.
+14. Admin -> Reports -> One Report is created but reconsider the requirement.
+15. Admin -> Profile -> Reconsider UI and Content which is required to be placed here.
+16. Logout -> Manual logout is working fine / Auto logout is little sketchy.(Auto logout is working when there is not entry in DB for admin logins).
+-----------------------------------------------------------------------------------------------
+Login Page details
+-----------------------------------------------------------------------------------------------
+1. Login page -> Done
+2. Change Login -> Done
+3. Forgot password -> Logic is working but UI and some changes are required.
+-----------------------------------------------------------------------------------------------
+Student Login Portal.
+-----------------------------------------------------------------------------------------------
+1. Student -> Login -> Done
+2. Student -> Access Check -> Done.
+3. Student -> Block user -> Done.
+4. Student -> Create unblock Request -> Done.
+5. Student -> Account unblock -> Done.
+6. Student -> Home page -> Need to work.
+
+-----------------------------------------------------------------------------------------------
+New Requirements
+-----------------------------------------------------------------------------------------------
+1. Admin -> Create dynamic Menu. -> Inprogress./// Under progress 1 servlet and 1 new Class has been created for this implimentation.
+		09-11-2021 : Updates New connnection with database was aquired and with some url passing functionality is working now.
+		Both the Servlet and Class will be removed with there respective package.
+		Same needed to be tested for any new application comes.
+		Sorting has been added with the modules and application. Sorting with name.
+<*--Few more testing has been done and url and module to application hierachy is working fine --->
+-----------------------------------------------------------------------------------------------
+Modify Manage Student App. | Module Manage | Admin application.
+-----------------------------------------------------------------------------------------------
+1. Take Application menu on the left.
+	Manage student UI has been improved.
+	Application Connection has been changed to a pool connection.
+	Record searching is working with userid value.
+	Opening of record is working.
+	Openned Record UI has to be modified and require some thought process.
+	XML parsing error was resolved for this page solution has been found.
+-----------------------------------------------------------------------------------------------
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

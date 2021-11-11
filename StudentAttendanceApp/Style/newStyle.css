@@ -1,0 +1,169 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	width:100%;
+	background-color:rgba(95, 99, 110, 0.7);
+}
+
+.welcomeText{
+	height:90px;
+	background-color:rgba(107, 127, 181,0.8);
+	color:white;
+	text-shadow:2px 2px 2px black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:24px;
+}
+main{
+	width:100%;
+	height:100%;
+	display:grid;
+	grid-template-columns :auto auto;
+	grid-gap:50px;
+}
+.studentInfo{
+	background:white;
+	width:400px;
+	height:400px;
+	margin:5px;
+	border-radius:10px;
+	
+}
+table tbody .title{
+	width:100%;
+	height:40px;
+}
+.title p{
+	color:white;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:30px;
+	font-size:16px;
+	background-color:grey;
+	text-align:center;
+	border-bottom:4px solid black;
+}
+.infoMarquees{
+	width:100%;
+	height:100%;
+	border:1px inset black;
+	background-color:rgb(64, 36, 40);	
+}
+.infoMarquees marquee{
+	width:100%;
+	height:380px;
+	padding:10px;
+}
+.infoMarquees marquee ul li{
+	cursor:pointer;
+	list-style-type:square;
+	padding:3px;
+	color:white;
+	text-decoration:underline;
+}
+.infoMarquees marquee ul li:hover{
+	color:blue;
+}
+
+section{
+	width:400px;
+	height:400px;
+	position:relative;
+	background-color:rgb(38, 23, 25);
+	margin-top:10px;
+	border-radius:10px;
+	left:50px;
+}
+.mainTitle{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.Title{
+	width:100%;
+	text-align:center;
+	color:white;
+	font-size:22px;
+	position:absolute;
+	top:20px;
+	text-shadow:2px 2px 2px black;
+}
+
+form{
+	width:100%;
+	height:170px;	
+}
+form div{
+	width:100%;
+	padding:10px;
+}
+
+form div label{
+	color:white;
+	padding:5px;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+
+form div input{
+	width:230px;
+	height:35px;
+	outline:none;
+	border:1px solid rgb(134, 173, 166);
+	border-radius:5px;
+	font-size:14.5px;
+	padding:2px;
+}
+
+form div input:focus{
+	border:1px solid rgb(43, 224, 192);
+	box-shadow: 0px 0px 6px rgb(43, 224, 192); 
+}
+form div #userid{
+	margin-left:15px;
+}
+
+.loginbtn{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+
+.loginbtn button{
+	padding:10px;
+	border:none;
+	outline:none;
+	background:white;
+	color:black;
+	border-radius:5px;
+	margin:10px;
+}
+
+.loginbtn button a{
+	color:black;
+	text-decoration:none;
+}
+.forgotbtn{
+	font-size:16px;
+	color:white;
+	padding:10px;
+}
+
+
+
+
+
+
