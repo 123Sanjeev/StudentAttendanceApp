@@ -3,7 +3,7 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
-	<display-name>StudentAttendanceApp</display-name>
+	<display-name>studentattendanceapp</display-name>
 	<welcome-file-list>
 		<welcome-file>Login_Admin_app/Login.jsp</welcome-file>
 	</welcome-file-list>
