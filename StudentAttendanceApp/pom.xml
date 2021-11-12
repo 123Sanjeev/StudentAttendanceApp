@@ -25,7 +25,7 @@
                                 <groupId>com.github.jsimone</groupId>
                                 <artifactId>webapp-runner<artifactId>
                                   <version>8.0.30.2</version>
-                                  <desFileName>webapp-runner.jar</destFileName>
+                                  <destFileName>webapp-runner.jar</destFileName>
                </artifactItem>
               </artifactItems>
             </configuration>
