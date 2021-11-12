@@ -16,7 +16,7 @@
             <phase>package</phase>
             <goals>
             <goal>
-              testComplie
+             help
             </goal>
             </goals>
             <configuration>
