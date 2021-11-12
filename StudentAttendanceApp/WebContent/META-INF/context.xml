@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/UsersDB"
+	auth ="Container"
+	type="javax.sql.DataSource"
+	maxActive = "30"
+	maxIdle ="20"
+	maxWait="10000"
+	driverClassName = "com.mysql.jdbc.Driver"
+	url="jdbc:mysql://192.168.0.173:3306/studentmangementsystem"
+	username="sanjeev"
+	password="sanjeev@123"/>
+	<Resource 
+		name="jdbc/loginDb" 
+		auth="Container"
+		type="javax.sql.DataSource"
+		maxActive="30"
+		maxWait= "20"
+		maxIdle ="10000"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://192.168.0.173:3306/loginportal"
+		username="sanjeev"
+		password="sanjeev@123"
+	/>
+</Context>
